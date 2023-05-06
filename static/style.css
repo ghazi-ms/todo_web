@@ -1,0 +1,110 @@
+/* Styles for the header */
+header {
+  background-color: #293241;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Styles for the body */
+
+
+/* Styles for the main container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for the form */
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+}
+
+/* Styles for the form inputs */
+input[type=text], textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Styles for the form button */
+button[type=submit] {
+  background-color: #293241;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button[type=submit]:hover {
+  background-color: #1c2638;
+}
+
+/* Styles for the task list */
+ul {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li span {
+  margin-right: 10px;
+}
+
+li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+li button:hover {
+  background-color: #c62828;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #293241;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
